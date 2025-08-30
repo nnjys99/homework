@@ -1,1 +1,74 @@
-/* 여기에 스타일을 구현해 주세요 */
+body {
+  margin: 15px 12px;
+}
+.images {
+  position: relative;
+  width: 396px;
+  height: 195px;
+  margin: auto;
+}
+
+.image {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+}
+
+.image img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.status-dot {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid white;
+  bottom: 0;
+  right: 0;
+}
+
+.status-dot.green {
+  background-color: green;
+}
+
+.status-dot.gray {
+  background-color: gray;
+}
+
+/* 4x2 배치: 좌표 직접 지정 */
+.image:nth-child(1) {
+  top: 20px;
+  left: 40px;
+}
+.image:nth-child(2) {
+  top: 20px;
+  left: 124px;
+}
+.image:nth-child(3) {
+  top: 20px;
+  left: 208px;
+}
+.image:nth-child(4) {
+  top: 20px;
+  left: 292px;
+}
+
+.image:nth-child(5) {
+  top: 104px;
+  left: 40px;
+}
+.image:nth-child(6) {
+  top: 104px;
+  left: 124px;
+}
+.image:nth-child(7) {
+  top: 104px;
+  left: 208px;
+}
+.image:nth-child(8) {
+  top: 104px;
+  left: 292px;
+}
